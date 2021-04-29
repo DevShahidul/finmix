@@ -1,0 +1,70 @@
+@import "../../assets/css/main.scss";
+
+.leaderstock-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $global-border-color;
+  margin: 0 30px;
+  padding: 25px 0;
+
+  .information {
+    display: flex;
+    justify-content: space-between;
+
+    .profile-picture {
+      width: 40px;
+      height: 40px;
+      overflow: hidden;
+      margin-right: 5px;
+      border-radius: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  h5 {
+    font-size: $title-font-size;
+    color: $title-text-color;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+    &.followers {
+      background: $follower-bg-color;
+      color: $secondary-theme-color;
+      font-weight: 500;
+    }
+
+    &.investors {
+      background: $investor-bg-color;
+      color: $primary-theme-color;
+      font-weight: 500;
+    }
+  }
+  .chart {
+    p {
+      color: $primary-theme-color;
+      font-weight: 600;
+    }
+    span {
+      font-weight: 400;
+      color: $primary-text-color;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .profile-picture {
+    min-width: 30px;
+    width: 30px !important;
+    height: 30px !important;
+  }
+}

@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Black.eot');
+    src: url('Biennale-Black.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Black.woff2') format('woff2'),
+        url('Biennale-Black.woff') format('woff'),
+        url('Biennale-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Black It';
+    src: url('Biennale-BlackIt.eot');
+    src: url('Biennale-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-BlackIt.woff2') format('woff2'),
+        url('Biennale-BlackIt.woff') format('woff'),
+        url('Biennale-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Bold It';
+    src: url('Biennale-BoldIt.eot');
+    src: url('Biennale-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-BoldIt.woff2') format('woff2'),
+        url('Biennale-BoldIt.woff') format('woff'),
+        url('Biennale-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Light It';
+    src: url('Biennale-LightIt.eot');
+    src: url('Biennale-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-LightIt.woff2') format('woff2'),
+        url('Biennale-LightIt.woff') format('woff'),
+        url('Biennale-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Bold.eot');
+    src: url('Biennale-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Bold.woff2') format('woff2'),
+        url('Biennale-Bold.woff') format('woff'),
+        url('Biennale-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Hair';
+    src: url('Biennale-Hair.eot');
+    src: url('Biennale-Hair.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Hair.woff2') format('woff2'),
+        url('Biennale-Hair.woff') format('woff'),
+        url('Biennale-Hair.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Book';
+    src: url('Biennale-Book.eot');
+    src: url('Biennale-Book.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Book.woff2') format('woff2'),
+        url('Biennale-Book.woff') format('woff'),
+        url('Biennale-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Hair It';
+    src: url('Biennale-HairIt.eot');
+    src: url('Biennale-HairIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-HairIt.woff2') format('woff2'),
+        url('Biennale-HairIt.woff') format('woff'),
+        url('Biennale-HairIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Book It';
+    src: url('Biennale-BookIt.eot');
+    src: url('Biennale-BookIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-BookIt.woff2') format('woff2'),
+        url('Biennale-BookIt.woff') format('woff'),
+        url('Biennale-BookIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Heavy It';
+    src: url('Biennale-HeavyIt.eot');
+    src: url('Biennale-HeavyIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-HeavyIt.woff2') format('woff2'),
+        url('Biennale-HeavyIt.woff') format('woff'),
+        url('Biennale-HeavyIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Heavy.eot');
+    src: url('Biennale-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Heavy.woff2') format('woff2'),
+        url('Biennale-Heavy.woff') format('woff'),
+        url('Biennale-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale SemiBold It';
+    src: url('Biennale-SemiBoldIt.eot');
+    src: url('Biennale-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-SemiBoldIt.woff2') format('woff2'),
+        url('Biennale-SemiBoldIt.woff') format('woff'),
+        url('Biennale-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Medium It';
+    src: url('Biennale-MediumIt.eot');
+    src: url('Biennale-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-MediumIt.woff2') format('woff2'),
+        url('Biennale-MediumIt.woff') format('woff'),
+        url('Biennale-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Medium.eot');
+    src: url('Biennale-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Medium.woff2') format('woff2'),
+        url('Biennale-Medium.woff') format('woff'),
+        url('Biennale-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-SemiBold.eot');
+    src: url('Biennale-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-SemiBold.woff2') format('woff2'),
+        url('Biennale-SemiBold.woff') format('woff'),
+        url('Biennale-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Thin.eot');
+    src: url('Biennale-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Thin.woff2') format('woff2'),
+        url('Biennale-Thin.woff') format('woff'),
+        url('Biennale-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Thin It';
+    src: url('Biennale-ThinIt.eot');
+    src: url('Biennale-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-ThinIt.woff2') format('woff2'),
+        url('Biennale-ThinIt.woff') format('woff'),
+        url('Biennale-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale It';
+    src: url('Biennale-RegularIt.eot');
+    src: url('Biennale-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-RegularIt.woff2') format('woff2'),
+        url('Biennale-RegularIt.woff') format('woff'),
+        url('Biennale-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Light.eot');
+    src: url('Biennale-Light.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Light.woff2') format('woff2'),
+        url('Biennale-Light.woff') format('woff'),
+        url('Biennale-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('Biennale-Regular.eot');
+    src: url('Biennale-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-Regular.woff2') format('woff2'),
+        url('Biennale-Regular.woff') format('woff'),
+        url('Biennale-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale Ultra';
+    src: url('Biennale-UltraLight.eot');
+    src: url('Biennale-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-UltraLight.woff2') format('woff2'),
+        url('Biennale-UltraLight.woff') format('woff'),
+        url('Biennale-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale UltraLight It';
+    src: url('Biennale-UltraLightIt.eot');
+    src: url('Biennale-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('Biennale-UltraLightIt.woff2') format('woff2'),
+        url('Biennale-UltraLightIt.woff') format('woff'),
+        url('Biennale-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+

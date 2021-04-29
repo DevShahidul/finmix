@@ -1,0 +1,34 @@
+@import "../../assets/css/main.scss";
+
+.Finmix-Creation {
+  margin: 20px;
+  img {
+    z-index: 1;
+  }
+  .hero-box {
+    padding: 30px 15px;
+    background: linear-gradient(180deg, #f2f4fb 0%, #fbfcff 100%);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2;
+    margin-top: -150px;
+    position: relative;
+
+    h5 {
+      font-size: $title-font-size;
+      color: $title-text-color;
+      font-weight: 700;
+    }
+    p {
+      font-size: 13px;
+      color: #79828d;
+    }
+
+    .btn {
+      background: $primary-theme-color;
+      border-radius: 8px;
+      padding: 9px 20px;
+      color: $background-white-color;
+    }
+  }
+}

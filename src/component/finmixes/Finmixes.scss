@@ -1,0 +1,34 @@
+@import "../../assets/css/main.scss";
+
+.stock-index {
+  background-color: $background-white-color;
+  border-radius: $global-border-radius;
+  margin-bottom: $section-margin;
+
+  .section-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $global-border-color;
+    padding: 35px 30px 22px;
+
+    h4 {
+      font-size: $section-title-font-size;
+      font-weight: 700;
+    }
+    .btn {
+      padding: 9px 17px;
+      background: $accent-bg-color;
+      border-radius: 8px;
+      font-weight: 600;
+      color: $background-white-color;
+    }
+  }
+  .section-bottom {
+    border-top: 1px solid $global-border-color;
+    padding: 18px 0 19px 0;
+    p {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+}

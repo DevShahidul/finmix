@@ -1,0 +1,18 @@
+.canvasjs-chart-tooltip {
+  position: relative;
+  &::before {
+    position: absolute;
+    height: 250px;
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    content: "";
+    background: linear-gradient(
+      180deg,
+      rgba(73, 218, 157, 0) 0%,
+      #49da9d 133.05%
+    );
+    opacity: 0.5;
+  }
+}

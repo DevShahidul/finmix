@@ -1,0 +1,54 @@
+@import "../../assets/css/main.scss";
+
+.ant-layout-sider {
+  background: #fff;
+}
+@media (min-width: 1368px) {
+  .ant-layout-sider {
+    position: fixed;
+    height: 100vh;
+  }
+  .content-layout {
+    margin-left: 240px;
+  }
+}
+.ant-layout-sider-zero-width-trigger {
+  background: $primary-theme-color;
+  top: 20px;
+}
+.ant-layout-sider {
+  background: #fff;
+}
+.brand {
+  padding: 40px 60px 0 60px;
+  h2 {
+    color: $primary-theme-color;
+    font-size: 36px;
+    font-weight: 900;
+  }
+}
+.main-content-section {
+  display: flex;
+  justify-content: space-between;
+
+  .left-content {
+    flex-basis: 58%;
+    margin-right: 30px;
+  }
+  .right-content {
+    flex-basis: 40%;
+  }
+}
+.ant-layout-header {
+  background: unset;
+}
+
+@media (max-width: 1024px) {
+  .main-content-section {
+    display: block;
+
+    .left-content {
+      margin-right: 0;
+    }
+  }
+}

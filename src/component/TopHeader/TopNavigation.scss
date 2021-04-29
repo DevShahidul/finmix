@@ -1,0 +1,83 @@
+@import "../../assets/css/main.scss";
+
+.top-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+
+  .searchbar {
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+
+    .left-icon-input {
+      img {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translate(-50%, -50%);
+      }
+
+      input[type="text"] {
+        width: 100%;
+        border-radius: 30px;
+        padding-left: 50px;
+
+        &::placeholder {
+          color: #99a6b9;
+        }
+      }
+    }
+  }
+  .userprofile {
+    display: flex;
+    justify-content: space-between;
+    .mail {
+      position: relative;
+    }
+    .notification {
+      margin-left: 20px;
+      position: relative;
+    }
+    .user {
+      position: relative;
+      margin-left: 30px;
+      img {
+        border-radius: 50%;
+      }
+      &::before {
+        position: absolute;
+        width: 8.5px;
+        height: 8.5px;
+        right: 0;
+        top: 18px;
+        border-radius: 50%;
+        background: $primary-theme-color;
+        border: 1.5px solid #f5f6fa;
+        content: "";
+      }
+    }
+  }
+  .counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 9px;
+    color: #fff;
+    &::before {
+      position: absolute;
+      top: 25px;
+      left: -4px;
+      border-radius: 50%;
+      background: #f64e60;
+      border: 2px solid #f5f6fa;
+      width: 13.5px;
+      height: 13.5px;
+      font-size: 9px;
+      content: "";
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+@import "../../assets/css/main.scss";
+
+.menus {
+  margin-top: 90px;
+  li {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    margin-bottom: 12px !important;
+
+    &:hover,
+    &:active {
+      svg {
+        path {
+          stroke: $primary-theme-color;
+        }
+      }
+      &::before {
+        position: absolute;
+        width: 91px;
+        height: 50px;
+        top: 0;
+        left: 0;
+        content: "";
+        background: #e5f8f0;
+        border-radius: 0 20px 20px 0;
+      }
+    }
+    &.active {
+      p {
+        color: $title-text-color;
+      }
+      &::before {
+        position: absolute;
+        width: 91px;
+        height: 50px;
+        top: 0;
+        left: 0;
+        content: "";
+        background: $investor-bg-color;
+        border-radius: 0 20px 20px 0;
+      }
+    }
+    img,
+    svg {
+      height: 25px;
+      width: 25px;
+      max-width: 60px;
+      margin-left: 15px;
+      margin-right: 55px;
+      z-index: 1;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 50px;
+      color: $primary-text-color;
+      margin-bottom: 0;
+    }
+  }
+  .ant-menu-item {
+    align-items: center !important;
+    height: 50px !important;
+  }
+}

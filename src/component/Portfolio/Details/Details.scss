@@ -1,0 +1,40 @@
+@import "../../../assets/css/main.scss";
+
+.details {
+  display: flex;
+  .portfolio-balance {
+    display: flex;
+    .balance {
+      margin-left: 10px;
+      p {
+        font-size: 11px;
+        line-height: 18px;
+        color: $accent-text-color;
+      }
+      .current {
+        display: flex;
+        align-items: center;
+        h1 {
+          font-size: 30px;
+          color: $title-text-color;
+          font-weight: 700;
+          margin-right: 10px;
+        }
+        p {
+          font-size: 13px;
+          font-weight: 500;
+          color: $primary-theme-color;
+        }
+      }
+    }
+  }
+}
+.ant-tabs-tab-btn {
+  padding: 7px !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  padding: 7px !important;
+  border-radius: 6px;
+  color: $background-white-color;
+  background: $primary-theme-color;
+}
