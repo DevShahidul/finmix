@@ -6,15 +6,17 @@ let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const options = {
   backgroundColor: "#fff",
   axisX: {
-    title: "",
     tickLength: 0,
     lineThickness:0,
-  //   labelFormatter: function(e) {
-  //     return "";
-  //  }
+    valueFormatString: "MMM"
+    // labelFormatter: function (e) {
+    //   return CanvasJSChart.formatDate( e.value, "MMM");
+    // },
   },
   axisY:{
-    gridThickness: 0,
+    gridDashType: 'dash',
+    gridThickness: 1,
+    gridColor: '#DBDFEA',
     tickLength: 0,
     lineThickness:0,
   //   labelFormatter: function(e) {
@@ -33,14 +35,17 @@ const options = {
     color: "#e5f8f0",
     lineColor:"#2DCC89",
     dataPoints: [
-      { x: new Date(2021, 2).toLocaleString('default', { month: 'short' }), y: 20 },
-      { x: new Date(2021, 3).getMonth(), y: 60 },
-      { x: new Date(2021, 4).getMonth(), y: 40 },
-      { x: new Date(2021, 5).getMonth(), y: 50 },
-      { x: new Date(2021, 6).getMonth(), y: 70 },
-      { x: new Date(2021, 7).getMonth(), y: 80 },
-      { x: new Date(2021, 8).getMonth(), y: 65 },
-      { x: new Date(2021, 9).getMonth(), y: 90 }
+      { x: new Date(2021, 1, 3), y: 50 },
+				{ x: new Date(2021, 1, 5), y: 100 },
+				{ x: new Date(2021, 2, 7), y: 110 },
+				{ x: new Date(2021, 5, 9), y: 158 },
+				{ x: new Date(2021, 8, 11), y: 34 },
+				{ x: new Date(2021, 9, 13), y: 363 },
+				{ x: new Date(2021, 10, 15), y: 247 },
+				{ x: new Date(2021, 11, 17), y: 253 },
+				{ x: new Date(2021, 11, 19), y: 269 },
+				{ x: new Date(2021, 12, 21), y: 343 },
+				{ x: new Date(2021, 12, 23), y: 370 }
 
       // { x: new Date(2021, 2), y: 20 },
       // { x: new Date(2021, 3), y: 60 },

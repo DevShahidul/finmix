@@ -59,25 +59,26 @@
       }
     }
   }
-  .counter {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    font-size: 9px;
-    color: #fff;
-    &::before {
-      position: absolute;
-      top: 25px;
-      left: -4px;
-      border-radius: 50%;
-      background: #f64e60;
-      border: 2px solid #f5f6fa;
-      width: 13.5px;
-      height: 13.5px;
-      font-size: 9px;
-      content: "";
-      z-index: -1;
-    }
-  }
+
+  // .counter {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   z-index: 2;
+  //   font-size: 9px;
+  //   color: #fff;
+  //   &::before {
+  //     position: absolute;
+  //     top: 25px;
+  //     left: -4px;
+  //     border-radius: 50%;
+  //     background: #f64e60;
+  //     border: 2px solid #f5f6fa;
+  //     width: 13.5px;
+  //     height: 13.5px;
+  //     font-size: 9px;
+  //     content: "";
+  //     z-index: -1;
+  //   }
+  // }
 }

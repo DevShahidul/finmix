@@ -1,3 +1,4 @@
+import { Badge } from 'antd';
 import React from 'react';
 import Message from '../../assets/images/Message.svg';
 import Notification from '../../assets/images/Notification.svg';
@@ -17,11 +18,15 @@ const TopNavigation = props => {
         <div className="userprofile">
            <div className="mail">
              <img src={Message} alt="Email"/>           
-              <p className="counter">2</p>
+              <Badge count={5}>
+                <a href="#" className="head-example" />
+              </Badge>
            </div>
            <div className="notification">
              <img src={Notification} alt="notification"/>
-             <p className="counter">4</p>
+              <Badge count={0} showZero>
+                <a href="#" className="head-example" />
+              </Badge>
            </div>
            <div className="user">
              <img src={User} alt="user"/>
