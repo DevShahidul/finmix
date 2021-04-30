@@ -6,12 +6,10 @@ let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const options = {
   backgroundColor: "#fff",
   axisX: {
+    marign: 10,
     tickLength: 0,
     lineThickness:0,
     valueFormatString: "MMM"
-    // labelFormatter: function (e) {
-    //   return CanvasJSChart.formatDate( e.value, "MMM");
-    // },
   },
   axisY:{
     gridDashType: 'dash',
@@ -19,9 +17,6 @@ const options = {
     gridColor: '#DBDFEA',
     tickLength: 0,
     lineThickness:0,
-  //   labelFormatter: function(e) {
-  //     return "";
-  //  }
   },
   toolTip:{
     enabled: true,

@@ -42,22 +42,22 @@ const Post = (props) => {
           <img className="post-image" src={props.postimage} alt={props.name}/>
       </div>
       <div className="post-action">
-          <div className="like">
+          <button className="like">
             <img src={Like} alt="like"/>
             <p>{props.like}+</p>
-          </div>
-          <div className="comment">
+          </button>
+          <button className="comment">
           <img src={Comment} alt="Comment"/>
             <p>{props.comment}+</p>
-          </div>
-          <div className="share">
+          </button>
+          <button className="share">
           <img src={Share} alt="Share"/>
              <p>Share</p>
-          </div>
-          <div className="send">
+          </button>
+          <button className="send">
           <img src={Send} alt="Send"/>
             <p>Send</p>
-          </div>
+          </button>
       </div>
     </div>
   );
