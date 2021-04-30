@@ -33,14 +33,14 @@ const options = {
     color: "#e5f8f0",
     lineColor:"#2DCC89",
     dataPoints: [
-      { x: new Date(2021, 2), y: 20 },
-      { x: new Date(2021, 3), y: 60 },
-      { x: new Date(2021, 4), y: 40 },
-      { x: new Date(2021, 5), y: 50 },
-      { x: new Date(2021, 6), y: 70 },
-      { x: new Date(2021, 7), y: 80 },
-      { x: new Date(2021, 8), y: 65 },
-      { x: new Date(2021, 9), y: 90 }
+      { x: new Date(2021, 2).toLocaleString('default', { month: 'short' }), y: 20 },
+      { x: new Date(2021, 3).getMonth(), y: 60 },
+      { x: new Date(2021, 4).getMonth(), y: 40 },
+      { x: new Date(2021, 5).getMonth(), y: 50 },
+      { x: new Date(2021, 6).getMonth(), y: 70 },
+      { x: new Date(2021, 7).getMonth(), y: 80 },
+      { x: new Date(2021, 8).getMonth(), y: 65 },
+      { x: new Date(2021, 9).getMonth(), y: 90 }
 
       // { x: new Date(2021, 2), y: 20 },
       // { x: new Date(2021, 3), y: 60 },

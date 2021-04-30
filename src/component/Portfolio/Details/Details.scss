@@ -1,5 +1,13 @@
 @import "../../../assets/css/main.scss";
 
+@media (min-width: 768px) {
+  .ant-tabs > .ant-tabs-nav {
+    position: absolute;
+    right: 0;
+    top: 30px;
+  }
+}
+
 .portfolio-details {
   position: relative;
 }
@@ -46,11 +54,6 @@
   justify-content: flex-end;
 }
 
-.ant-tabs > .ant-tabs-nav {
-  position: absolute;
-  right: 0;
-  top: 30px;
-}
 .ant-tabs-tab + .ant-tabs-tab {
   margin-left: 20px;
 }
