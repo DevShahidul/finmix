@@ -9,7 +9,7 @@ import Portfolio from '../../component/Portfolio/Portfolio';
 import TopNavigation from '../../component/TopHeader/TopNavigation';
 import './Home.scss';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Sider } = Layout;
 
 const Home = props => {
   return (
