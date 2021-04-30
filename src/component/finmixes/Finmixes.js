@@ -33,7 +33,7 @@ const Finmixes = () => {
     <br/>
     {leaderstocks}
     <div className="section-bottom">
-      <p>Show more +</p>
+      <button>Show more +</button>
     </div>
     </div>
   );

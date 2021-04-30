@@ -26,9 +26,12 @@
   .section-bottom {
     border-top: 1px solid $global-border-color;
     padding: 18px 0 19px 0;
-    p {
+    button {
       text-align: center;
       font-size: 16px;
+      margin: 0 auto;
+      max-width: 100px;
+      display: block;
     }
   }
 }

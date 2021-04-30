@@ -20,7 +20,7 @@ const FeaturedIndexes = (props) => {
       </div>
     {stocks}
     <div className="section-bottom">
-      <p>Show more +</p>
+      <button>Show more +</button>
     </div>
     </div>
   );
