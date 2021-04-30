@@ -37,12 +37,12 @@
       position: relative;
     }
     .notification {
-      margin-left: 20px;
+      margin-left: 10px;
       position: relative;
     }
     .user {
       position: relative;
-      margin-left: 30px;
+      margin-left: 20px;
       img {
         border-radius: 50%;
       }
@@ -81,4 +81,8 @@
   //     z-index: -1;
   //   }
   // }
+}
+
+span.ant-badge.ant-badge-status.ant-badge-not-a-wrapper {
+  top: -10px;
 }

@@ -16,22 +16,21 @@ const TopNavigation = props => {
           </div>
         </div>
         <div className="userprofile">
-           <button className="mail">
+        <button className="mail">
              <img src={Message} alt="Email"/>           
-              <Badge count={5}>
-                <a href="#" className="head-example" />
+              <Badge offset={[-10, -10]} count={5}>
+                {/* <a href="https://demo" className="head-example" /> */}
               </Badge>
            </button>
            <button className="notification">
              <img src={Notification} alt="notification"/>
-              <Badge count={0} showZero>
-                <a href="#" className="head-example" />
+              <Badge offset={[-10, -10]} count={0} showZero>
+                {/* <a href="" className="head-example" /> */}
               </Badge>
            </button>
            <button className="user">
              <img src={User} alt="user"/>
-             <Badge color="#2dcc89" dot offset={[-2, -10]}>
-                <a href="#"></a>
+             <Badge color="#2dcc89" dot offset={[-6, -5]}>
             </Badge>
            </button>
         </div>
