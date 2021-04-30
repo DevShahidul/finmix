@@ -19,9 +19,15 @@ const PostsCards = props => {
         </div>
         <div className="attachment">
           <div className="attachment-types">
-            <img src={Attachment} alt=""/>
-            <img src={AddPhoto} alt=""/>
-            <img src={Smile} alt=""/>
+            <button>
+              <img src={Attachment} alt=""/>
+            </button>
+            <button>
+              <img src={AddPhoto} alt=""/>
+              </button>
+            <button>
+              <img  src={Smile} alt=""/>
+            </button>
           </div>
           <button className="btn create">Post</button>
         </div>
