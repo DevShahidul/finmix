@@ -3,10 +3,6 @@ import React from 'react';
 
 const { Option } = Select;
 
-function handleChange(value) {
-  console.log(`selected ${value}`);
-}
-
 function onSwitchChange(checked) {
 }
 

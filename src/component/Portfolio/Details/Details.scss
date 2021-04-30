@@ -1,5 +1,9 @@
 @import "../../../assets/css/main.scss";
 
+.portfolio-details {
+  position: relative;
+}
+
 .details {
   display: flex;
   .portfolio-balance {
@@ -37,4 +41,22 @@
   border-radius: 6px;
   color: $background-white-color;
   background: $primary-theme-color;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+  justify-content: flex-end;
+}
+
+.ant-tabs > .ant-tabs-nav {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.ant-tabs-tab + .ant-tabs-tab {
+  margin-left: 20px;
+}
+
+.ant-tabs-nav {
+  &::before {
+    border-bottom: 0 !important;
+  }
 }

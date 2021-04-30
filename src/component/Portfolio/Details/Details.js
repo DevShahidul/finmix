@@ -1,6 +1,7 @@
 import { Tabs } from 'antd';
 import React from 'react';
 import PortoflioImage from '../../../assets/images/Portfolio.svg';
+import StockChart from '../../stockChart/StockChart';
 import './Details.scss';
 
 const TabPane = Tabs.TabPane;
@@ -32,21 +33,26 @@ const Details = props => {
         <Tabs defaultActiveKey="5" size="small">
         <TabPane tab="1D" key="1">
           <PortfolioData/>
+          <StockChart/>
         </TabPane>
         <TabPane tab="1W" key="2">
           <PortfolioData/>
+          <StockChart/>
         </TabPane>
         <TabPane tab="1M" key="3">
           <PortfolioData/>
         </TabPane>
         <TabPane tab="3M" key="4">
           <PortfolioData/>
+          <StockChart/>
         </TabPane>
         <TabPane tab="1Y" key="5">
           <PortfolioData/>
+          <StockChart/>
         </TabPane>
         <TabPane tab="YTD" key="6">
           <PortfolioData/>
+          <StockChart/>
         </TabPane>
       </Tabs>
         </div>
